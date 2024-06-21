@@ -1,0 +1,42 @@
+TODO
+----
+Julia
+Swift
+Dataflow (lustre?, neva?)
+Prolog?
+Zig
+Picat
+Gleam
+Ada
+APL
+Coconut
+Nim
+Kotlin
+Clojure
+asm
+Ruby
+D
+Dart
+Go
+Lua
+Tcl
+Elixir
+Forth (or Factor)
+
+
+Finished (notes)
+----------------
+C
+C++
+Common Lisp
+Erlang       (slow)
+Fortran      (writes PPM)
+Haskell
+J            (missing JSON parsing and antialiasing)
+Java
+Pascal       (writes PPM)
+Perl         (slow)
+Python
+Racket
+Rust
+Scala

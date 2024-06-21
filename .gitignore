@@ -1,0 +1,65 @@
+*.png
+*.ppm
+trace
+
+# C/C++
+*.dSYM
+*.o
+
+# Common Lisp
+*.fas
+*.lib
+
+# Erlang
+.rebar3
+_build
+_checkouts
+_vendor
+.eunit
+*.o
+*.beam
+*.plt
+*.swp
+*.swo
+.erlang.cookie
+ebin
+log
+erl_crash.dump
+.rebar
+logs
+.idea
+*.iml
+rebar3.crashdump
+*~
+
+# Fortran
+*.mod
+
+# Haskell
+newdist/
+dist-newstyle/
+
+# Java
+*.class
+*.jar
+
+# Pascal
+*.ppu
+
+# Python
+*cache*
+
+# Racket
+compiled/
+
+# Rust
+debug/
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Scala
+*.jar
+build/
+.*/
+project/
