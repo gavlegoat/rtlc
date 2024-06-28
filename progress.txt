@@ -1,6 +1,5 @@
 TODO
 ----
-Julia
 Swift
 Dataflow (lustre?, neva?)
 Prolog?
@@ -21,7 +20,7 @@ Go
 Lua
 Tcl
 Elixir
-Forth (or Factor)
+Factor (in progress)
 
 
 Finished (notes)
@@ -34,6 +33,7 @@ Fortran      (writes PPM)
 Haskell
 J            (missing JSON parsing and antialiasing)
 Java
+Julia
 Pascal       (writes PPM)
 Perl         (slow)
 Python

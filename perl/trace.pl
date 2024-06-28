@@ -18,7 +18,7 @@ sub vop {
     my $op = shift;
     my $u = shift;
     my @res = ();
-    foreach my $i (0..$#{$u}) {
+    for my $i (0..$#{$u}) {
         push @res, $op->($u->[$i], map { $_->[$i] } @_);
     }
     return \@res;
