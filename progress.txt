@@ -16,11 +16,11 @@ asm
 Ruby
 D
 Dart
-Go
 Lua
-Tcl
+Tcl (in progress)
 Elixir
 Factor (in progress)
+Idris
 
 
 Finished (notes)
@@ -30,6 +30,7 @@ C++
 Common Lisp
 Erlang       (slow)
 Fortran      (writes PPM)
+Go
 Haskell
 J            (missing JSON parsing and antialiasing)
 Java
