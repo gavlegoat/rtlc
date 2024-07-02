@@ -13,7 +13,6 @@ Nim
 Kotlin
 Clojure
 asm
-Ruby
 D
 Dart
 Lua
@@ -27,7 +26,7 @@ Finished (notes)
 C
 C++
 Common Lisp
-Erlang       (slow)
+Erlang
 Factor       (writes PPM)
 Fortran      (writes PPM)
 Go
@@ -36,8 +35,9 @@ J            (missing JSON parsing and antialiasing)
 Java
 Julia
 Pascal       (writes PPM)
-Perl         (slow)
+Perl
 Python
 Racket
+Ruby
 Rust
 Scala
