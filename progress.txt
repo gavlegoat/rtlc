@@ -19,7 +19,6 @@ Dart
 Lua
 Tcl (in progress)
 Elixir
-Factor (in progress)
 Idris
 
 
@@ -29,6 +28,7 @@ C
 C++
 Common Lisp
 Erlang       (slow)
+Factor       (writes PPM)
 Fortran      (writes PPM)
 Go
 Haskell
