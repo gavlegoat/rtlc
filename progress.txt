@@ -16,7 +16,6 @@ asm
 D
 Dart
 Lua
-Tcl (in progress)
 Elixir
 Idris
 
@@ -41,3 +40,4 @@ Racket
 Ruby
 Rust
 Scala
+Tcl
