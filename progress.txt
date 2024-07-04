@@ -15,7 +15,6 @@ Clojure
 asm
 D
 Dart
-Lua
 Elixir
 Idris
 
@@ -33,6 +32,7 @@ Haskell
 J            (missing JSON parsing and antialiasing)
 Java
 Julia
+Lua          (writes PPM)
 Pascal       (writes PPM)
 Perl
 Python
