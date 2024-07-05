@@ -9,7 +9,6 @@ Gleam
 Ada
 APL
 Coconut
-Nim
 Kotlin
 Clojure
 asm
@@ -33,6 +32,7 @@ J            (missing JSON parsing and antialiasing)
 Java
 Julia
 Lua          (writes PPM)
+Nim
 Pascal       (writes PPM)
 Perl
 Python
