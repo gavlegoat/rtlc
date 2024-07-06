@@ -68,3 +68,7 @@ build/
 .bsp/
 .metals/
 project/
+
+# Zig
+.zig-cache/
+zig-out/

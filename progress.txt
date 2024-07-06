@@ -3,7 +3,6 @@ TODO
 Swift
 Dataflow (lustre?, neva?)
 Prolog?
-Zig
 Picat
 Gleam
 Ada
@@ -41,3 +40,4 @@ Ruby
 Rust
 Scala
 Tcl
+Zig
