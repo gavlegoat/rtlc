@@ -11,7 +11,6 @@ Coconut
 Kotlin
 Clojure
 asm
-D
 Dart
 Elixir
 Idris
@@ -22,6 +21,7 @@ Finished (notes)
 C
 C++
 Common Lisp
+D
 Erlang
 Factor       (writes PPM)
 Fortran      (writes PPM)

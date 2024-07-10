@@ -20,17 +20,20 @@ def parse_scene(filename: str) -> Scene:
                        Point(o["center"][0], o["center"][1], o["center"][2]),
                        o["radius"])
         elif o["type"] == "plane":
-            obj = Plane(o["reflectivity"],
-                        Color(o["color"][0], o["color"][1], o["color"][2]),
-                        Point(o["point"][0], o["point"][1], o["point"][2]),
-                        Vector(o["normal"][0], o["normal"][1], o["normal"][2]))
+            refl = o["reflectivity"]
+            pt = Point(o["point"][0], o["point"][1], o["point"][2])
+            col = Color(o["color"][0], o["color"][1], o["color"][2])
+            norm = Vector(o["normal"][0], o["normal"][1], o["normal"][2])
             if o["checkerboard"]:
-                obj.color2 = Color(o["color2"][0],
-                                   o["color2"][1],
-                                   o["color2"][2])
-                obj.orientation = Vector(o["orientation"][0],
-                                         o["orientation"][1],
-                                         o["orientation"][2])
+                color2 = Color(o["color2"][0],
+                               o["color2"][1],
+                                o["color2"][2])
+                orientation = Vector(o["orientation"][0],
+                                     o["orientation"][1],
+                                     o["orientation"][2])
+                obj = Plane(refl, col, pt, norm, color2, orientation)
+            else:
+                obj = Plane(refl, col, pt, norm)
         else:
             raise RuntimeError("Unknown object type: " + o["type"])
         scene.add_object(obj)

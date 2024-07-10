@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"Greg Anderson"
+	],
+	"copyright": "Copyright © 2024, Greg Anderson",
+	"dependencies": {
+		"arsd-official:color_base": "~>11.4.2",
+		"arsd-official:png": "~>11.4.2"
+	},
+	"description": "A ray tracer.",
+	"license": "BSD-3-Clause",
+	"name": "trace"
+}

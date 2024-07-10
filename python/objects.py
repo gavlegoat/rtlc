@@ -125,8 +125,8 @@ class Sphere(Object):
 class Plane(Object):
 
     def __init__(self, refl: float, color: Color, point: Point, normal: Vector,
-                 color2: Color = Color(0, 0, 0),
-                 orientation: Vector = Vector(0, 0, 0)):
+                 color2: Optional[Color] = None,
+                 orientation: Optional[Vector] = None):
         super().__init__(refl, color)
         self.point = point
         self.normal = normal
