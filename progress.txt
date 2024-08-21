@@ -10,14 +10,17 @@ APL
 Coconut
 Kotlin
 Clojure
-asm
 Dart
 Elixir
 Idris
+Koka
+Unison
+Flix
 
 
 Finished (notes)
 ----------------
+Assembly (Aarch64, MacOS; writes PPM, hardcoded scene)
 C
 C++
 Common Lisp
